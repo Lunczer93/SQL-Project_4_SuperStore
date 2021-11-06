@@ -3,9 +3,11 @@
 INTRODUCTION
 
 A detailed analysis was performed in all years (2011-2014) and their months regarding Ship Mode, Segment, City, Country, Market, Quantity of Orders, Region, Category, Sub-Category, Product Name and Order Priority.
+
 I am interested in details about the Sales, Profit and Shipping Cost in all available entities to make measurements and conclusions based on these.
 So, if I find anything interesting then I do not hesitate to bring that in also.
 The whole steps of the analysis were described in my project.
+
 USAGE OF SQL
 View Tables, Temporary tables, Common Table Expressions and Table Variable were created to store data.
 JOIN clause was used to combine rows from two or more tables (CTE) based on a related column between them.
