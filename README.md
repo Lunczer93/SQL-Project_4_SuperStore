@@ -8,7 +8,7 @@ I am interested in details about the Sales, Profit and Shipping Cost in all avai
 So, if I find anything interesting then I do not hesitate to bring that in also.
 The whole steps of the analysis were described in my project.
 
-USAGE OF SQL
+# USAGE OF SQL
 View Tables, Temporary tables, Common Table Expressions and Table Variable were created to store data.
 JOIN clause was used to combine rows from two or more tables (CTE) based on a related column between them.
 Variables were declared in order to store data. It was used to calculate the percentage quantity of selected categories and entities in all years.
@@ -21,7 +21,8 @@ Data was explored by using Analytic and Windows functions
 Data was calculated by using Window Functions and Date Functions
 Data was also pivoted to show it in clear ways
 Statistical description was calculated by using Aggregate Functions and Analytic Functions (Median)
-ANALYSIS AND CALCULATIONS
+
+# ANALYSIS AND CALCULATIONS
 Statistical description was calculated.
  The calculation was based on Sales, Profit and Shipping Cost 
 The cumulative distribution and the percentage rank of Customer were used to show the top 25 and bottom entities of Sales, Profit and Shipping Cost in all entities.
@@ -55,11 +56,11 @@ The cost of Product in each year and for each category was measured.
 The percentage cost of product (%) to the Sales was measured.
 The ship duration and the average ship duration were calculated.
 Apart from it, more detailed analysis based on another fields were performed and are included also in my project.
-MAIN CONCLUSIONS AND RESULTS
-GENERAL OVERVIEW
+# MAIN CONCLUSIONS AND RESULTS
+## GENERAL OVERVIEW
 The distinct quantity of Customer is 795
 Cyra Reiten made the greatest Profit ($88895798), while Eugene Moren made the greatest Sales ($216801629). Michael Oakman made the lowest Sales ($818861), while Gary Hansen made the lowest Profit (-$81317707)
-Sales by SEGMENT
+###### Sales by SEGMENT
 The Sales of Segment was calculated. The greatest Sales ($1711004122) and Quantity of Orders (26518) belongs to Customer Segment.
 Eugene Moren made the biggest Sales ($216801629) in Home Office Segment
 Anna Hayman made the biggest Sales ($210014240) in Consumer Segment
@@ -68,14 +69,14 @@ Joni Sundaresman made the lowest Sales ($1741397) in Home Office Segment
 Michael Oakman made the lowest Sales ($818861) in Consumer Segment
 Sylvia Foulston made the lowest Sales ($1584262) in Corporate Segment
 
-Profit by SEGMENT 
+###### Profit by SEGMENT 
 Cyra Reiten made the biggest Profit ($87530275) in Home Office Segment
 Emily Phan made the biggest Profit ($79986483) in Consumer Segment
 Vivek Grady made the biggest Profit ($68582853) in Corporate Segment
 Anthony Garverick made the lowest Profit ($159543) in Home Office Segment
 Eric Hoffmann made the lowest Profit ($2305) in Consumer Segment
 Muhammed MacIntyre made the lowest Profit ($3214) in Corporate Segment
-Sales by CATEGORY
+###### Sales by CATEGORY
 The greatest Quantity of Orders belongs to Office Supplies Category (31273)
 Alan Dominguez made the greatest Sales ($60938028) in Furniture Category
 Jill Stevenson made the greatest Sales ($41703840) in Office Supplies Category
@@ -84,7 +85,7 @@ Neil Franzosisch made the lowest Sales ($33453) in Furniture Category
 Liz Wilingham made the lowest Sales ($198224) in Office Supplies Category
 Rob Beeghly made the lowest Sales ($55461) in Technology Category
 
-Profit by CATEGORY
+###### Profit by CATEGORY
 Technology generates the greatest profit $3991841618
 Stefanie Hollomann made the greatest Profit ($7241599) in Furniture Category
 Sanjit Chand made the greatest Profit ($56040112) in Office Supplies Category
@@ -92,7 +93,7 @@ Cyra Reiten made the greatest Profit ($87512166) in Technology Category
 Neil Franzosisch made the lowest Profit ($429) in Furniture Category
 Julia Barnett  made the lowest Profit ($2768) in Office Supplies Category
 Mike Kennedy made the lowest Profit ($120 in Technology Category
-Sales by SHIP MODE
+###### Sales by SHIP MODE
 The greatest Quantity of Orders belongs to Standard Class Mode (30775)
 Brosina Hoffman made the greatest quantity of the Ship Mode (74) by Standard Class
 Steven Ward made the greatest quantity of the Ship Mode (44) by Second Class
@@ -114,7 +115,7 @@ Tanja Norvell made the lowest Sales ($99) in Ship Mode First Class
 Rob Haberlin made the lowest Sales ($29) in Ship Mode Same Day 
 
 
-Profit  by SHIP MODE
+###### Profit  by SHIP MODE
 Standard Class generated the greatest Profit $2831192637
 Hunter Lopez made the greatest Profit ($78486028) in Ship Mode Standard Class 
 Eugene Moren made the greatest Profit ($70252025) in Ship Mode Second Class
@@ -125,22 +126,22 @@ Vivek Sundaresam made the lowest Profit ($635) in Ship Mode Standard Class
 Clay Cheatham made the lowest Profit ($114) in Ship Mode Second Class
 Shirley Schmidt made the lowest Profit ($72) in Ship Mode First Class
 Tony Sayre made the lowest Profit ($10) in Ship Mode Same Day 
-Sales by Country 
+###### Sales by Country 
 Mexico made the greatest Sales ($7344899253), while Armenia made the lowest Sales ($7197)
-Profit by Country
+###### Profit by Country
 United States generated the greatest Profit ($1799876538), while Chad generated the lowest Sales ($90)
-Quantity of Orders by City
+###### Quantity of Orders by City
 United States has the greatest quantity of orders 9994, while Swaziland has the lowest quantity of orders 2
 New York City has the greatest quantity of orders (915), while a lot of cities (488) have the lowest quantity of orders (1)
-Shipping Cost by City
+###### Shipping Cost by City
 The greatest shipping cost belonged to United States ($216632356), while the lowest one belonged to Eritrea ($855)
-Sales by City
+###### Sales by City
 Mexico City made the greatest Sales ($993630258), while Keller made the lowest one ($6)
 Sales by Customer and City
 Gary McGarr from Quito, Ecuador generated the greatest Sales ($191126545), while Patricl O’Bril from Jacksonville, United Stated generated the lowest Sales ($3)
-Profit by City
+###### Profit by City
 New York City (United States) made the greatest Profit ($389435030), while Cidade Ocidental (Brazil) made the lowest Profit ($6)
-Profit By Customer and City 
+###### Profit By Customer and City 
 Cyra Reiten from Guatemala, Mixco made the greatest profit ($87308002) in 2012, while David Smith from Mexico, Guadalajara made the lowest profit ($1) in 2012.
 Shipping Cost and Quantity of Orders by City and Category
 Jakarta (Indonesia) has the greatest shipping Cost ($119924) with 26 Orders in Low Order Priority.
@@ -153,31 +154,31 @@ United States  (New York City) has the greatest Shipping Cost ($1112447) with 17
 New York City (United States) possessed the greatest Shipping Cost ($2581075), while Gitarama (Rwanda) possessed the lowest Shipping Cost ($1)
 New York City in Office Supplies Category has the greatest quantity of orders (552), while a few cities have only one quantity of orders in all categories. 
 Binders (11.99%) possessed the greatest percentage quantity in  Sub-Category, while Tables (1,68%) has the lowest percentage quantity in Sub-Category 
-Sales by Sub-Category 
+###### Sales by Sub-Category 
 Copiers ($23319431708) made the greatest Sales in Sub Category, while Labels ($44770080) made the lowest Sales. 
-Profit  by Sub-Category 
+###### Profit  by Sub-Category 
 Copiers ($3361592012) made the greatest Profit in Sub Category, while Art ($24797208) made the lowest Profit. 
-Shipping Cost by Sub-Category
+###### Shipping Cost by Sub-Category
 Phones ($16767146) made the greatest Shipping Cost, while Labels ($735257) made the lowest Shipping Cost
-Sales by Sub-Category based on Category
+###### Sales by Sub-Category based on Category
 Bookcases (Sub-Category) made the greatest Sales ($1262471095),while Furnishings (Sub-Category) made the lowest Sales ($257624409) in Furniture.
 Appliances (Sub-Category) made the greatest Sales ($909944544),while Labels (Sub-Category) made the lowest Sales ($44770080) in Office Supplies.
 Copiers (Sub-Category) made the greatest Sales ($2331943708),while Accessories (Sub-Category) made the lowest Sales ($367419718) in Technology.
 
 
-Profit by Sub-Category based on Category
+###### Profit by Sub-Category based on Category
 Chairs (Sub-Category) made the greatest Profit ($294734685),while Chairs (Sub-Category) made the lowest Profit ($118779287) in Furniture.
 Binders (Sub-Category) made the greatest Profit ($439151004),while Fasteners (Sub-Category) made the lowest Profit ($9123786) in Office Supplies.
 Copiers (Sub-Category) made the greatest Profit ($475704796),while Machines (Sub-Category) made the lowest Profit ($266760987) in Technology.
-The Quantity of Orders by Product Name
+###### The Quantity of Orders by Product Name
 Staples possesses the greatest quantity of Orders (227)
-The Quantity of Discount By Product Name
+###### The Quantity of Discount By Product Name
 Hewlett Copy Machine, Color (Technology, Copiers) possesses the greatest quantity of Discount (2602)
-Sales by Product Name
+###### Sales by Product Name
 Brother Copy Machine, Color made the greatest Sales ($592561665), while Sanitaire Vibra Grommer IR Commercial Upright Vacuum, Replacement Belts made the lowest Sales ($13)
-Profit  by Product Name
+###### Profit  by Product Name
 Brother Copy Machine, Color made the greatest Profit ($204148826), while Sanitaire Vibra Grommer IR Commercial Upright Vacuum, Replacement Belts made the lowest Profit ($13)
-The Quantity of Orders by Customer
+###### The Quantity of Orders by Customer
 Muhammed Yedwab ordered the greatest quantity of products (108), while Michael Oakman ordered the lowest quantity of products (29)
 24 Customers made more than 90 Orders.
 
