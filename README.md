@@ -1,6 +1,6 @@
 # SQL-Project_4_SuperStore
 
-#INTRODUCTION
+# INTRODUCTION
 
 A detailed analysis was performed in all years (2011-2014) and their months regarding Ship Mode, Segment, City, Country, Market, Quantity of Orders, Region, Category, Sub-Category, Product Name and Order Priority.
 
