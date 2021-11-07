@@ -6,6 +6,7 @@ A detailed analysis was performed in all years (2011-2014) and their months rega
 
 I am interested in details about the Sales, Profit and Shipping Cost in all available entities to make measurements and conclusions based on these.
 So, if I find anything interesting then I do not hesitate to bring that in also.
+
 The whole steps of the analysis were described in my project.
 
 # USAGE OF SQL
