@@ -39,7 +39,7 @@ Statistical description was calculated.
 
  The calculation was based on Sales, Profit and Shipping Cost.
  
-The cumulative distribution and the percentage rank of Customer were used to show the top 25 and bottom entities of Sales, Profit and Shipping Cost in all entities.
+The cumulative distribution and the percentage rank of Customer and other entities were used to show the top 25 and bottom entities of Sales, Profit and Shipping Cost in all entities.
 
 Customers and another entities possess the sales and profit greater than average sales & profit were also indicated. 
  
